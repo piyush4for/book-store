@@ -1,3 +1,4 @@
-export const PORT = 5555;
 
-export const mongoDBURL = 'mongodb+srv://root:root@book-store-mern.pryeris.mongodb.net/books-collection?retryWrites=true&w=majority'
+export const PORT = process.env.PORT || 5555;
+
+export const mongoDBURL = 'mongodb+srv://root:root@book-store-mern.pryeris.mongodb.net/books-collection?retryWrites=true&w=majority';
